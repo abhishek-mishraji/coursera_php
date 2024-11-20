@@ -7,7 +7,7 @@
 $correctnumber=26; //change this number //
 if(isset($_GET['guess']))
 {
-  if (is_numeric($_GET['guess'])===FALSE)
+  if (is_numeric($_GET['guess'])==="")
  {
 echo "Your guess is not a number";
 }
